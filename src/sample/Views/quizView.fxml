@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="window" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.QuizViewController">
+   <children>
+      <ImageView fx:id="flagImage" fitHeight="200.0" fitWidth="300.0" layoutX="200.0" layoutY="50.0" pickOnBounds="true">
+          <image>
+              <Image url="@../../images/flags/ad.png" />
+          </image>
+      </ImageView>
+      <Button fx:id="answer1" layoutX="100.0" layoutY="300.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Button fx:id="answer2" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Button fx:id="answer3" layoutX="100.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Button fx:id="answer4" layoutX="400.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Button fx:id="answer5" layoutX="100.0" layoutY="500.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Button fx:id="answer6" layoutX="400.0" layoutY="500.0" mnemonicParsing="false" onAction="#clickAnswerButton" prefHeight="50.0" prefWidth="200.0" text="" />
+      <Label fx:id="correctLabel" layoutX="510.0" layoutY="70.0" prefHeight="50.0" prefWidth="180.0" text="Correct answers: " />
+      <Label fx:id="highScoreLabel" layoutX="10.0" layoutY="70.0" prefHeight="50.0" prefWidth="180.0" text="High score: " />
+      <Button fx:id="goBackButton" onAction="#goBack" layoutX="424.0" layoutY="603.0" mnemonicParsing="false" text="Go back to main Menu" />
+   </children>
+
+</AnchorPane>

@@ -1,0 +1,35 @@
+.root
+{
+    -fx-background-color: #383838;
+
+}
+
+.button
+{
+     -fx-background-color: #8000EF;
+     -fx-background-radius: 30;
+     -fx-background-insets: 0;
+     -fx-font-family: "Helvetica";
+     -fx-font-size: 20px;
+     -fx-text-fill: #311c09;
+
+}
+
+.button:hover {
+    -fx-background-color: #aabbcc;
+}
+
+.button:pressed {
+    -fx-background-color: #ffffff;
+}
+
+.label
+{
+      -fx-background-color: #777777;
+        -fx-font-family: "Helvetica";
+           -fx-font-size: 20px;
+           -fx-text-fill: #311c09;
+}
+
+
+

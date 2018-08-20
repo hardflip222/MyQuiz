@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="window" prefHeight="700.0" prefWidth="700.0" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.AddNewFlagController">
+   <children>
+      <TextField fx:id="nationTextField" layoutX="350.0" layoutY="200.0" promptText="enter the country name" />
+      <Label layoutX="200.0" layoutY="200.0" text="Country name:" />
+      <Button layoutX="300.0" layoutY="300.0" prefHeight="50" prefWidth="100" mnemonicParsing="false" text="Add" onAction="#addNewFlag" />
+      <Button layoutX="450.0" layoutY="600.0" mnemonicParsing="false" text="Go to main menu" onAction="#goBack"/>
+      <!---<Label layoutX="10.0" layoutY="51.0" prefHeight="200.0" prefWidth="700.0" text="After the addition flag name to the database, you should add flag image to flags directory. If you dont't do this, questions will show with temporary flag image." />
+          -->
+   </children>
+</AnchorPane>
